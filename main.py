@@ -1,13 +1,4 @@
 import os
-
-token = os.getenv("DISCORD_TOKEN")
-print("Token:", token)
-
-if not token:
-    print("Brak tokena! Sprawdź .env lub zmienne środowiskowe.")
-    exit()
-
-import os
 import discord
 from discord.ext import commands
 import youtube_dl
